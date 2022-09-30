@@ -1,1 +1,11 @@
-/* Add CSS styling here */
+header {
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+}
