@@ -9,3 +9,21 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+.infome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text {
+    padding: 20px;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 20px;
+}
