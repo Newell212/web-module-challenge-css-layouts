@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
 header {
     background-color: lightgray;
     padding: 20px;
@@ -50,7 +57,57 @@ button a {
     color: inherit;
 }
 
-.mycontact {
-    background-color: lightblue;
-    color: beige;
+@media (max-width: 800px) {
+    .row div {
+    width: 20%;
+     }
+
+     .infome img {
+        width: 80%;
+        padding: 0 2%;
+     }
+ }
+@media (max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    button {
+        width: 40%;
+        margin: 1% 0;
+    }
+    .infome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infome div {
+        width: 90%;
+    }
+
+     .text {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .row div {
+        width: 40%;
+        margin: 4% 0;
+    }
 }
